@@ -3,7 +3,9 @@ import {connect} from "react-redux";
 import {withBookstoreService} from '../hoc';
 import BookListItem from "../book-list-item";
 import {booksLoaded} from "../../actions";
-import {compose} from "../../utils";
+
+import './book-list.css';
+import compose from "../../utils";
 
 class BookList extends Component {
 	componentDidMount() {
